@@ -6,11 +6,11 @@
 
 replace gif with github after making it public
 
-changes latex formulas to images
+change latex formulas to images
 
 ## Introduction
 
-talk about traditional image segmentation
+Image segmentation is a common and very important task in image processing. It consists in clustering the elements of an image into different groups. Although there are different ways of doing image segmentation, the most popular by far is k-means clustering. The main issue with using traditional k-means clustering for image segmentation is that it does not only affects the resolution of the image, but it also completely neglects the background and makes it almost an impossible task to reconstruct it.
 
 
 
@@ -63,9 +63,10 @@ combine the 3 previously expressions into a single one as a weighted average.
 
 
 
-## Future Works
+## Future Work
 
-
+- Varying lighting
+- Moving camera
 
 
 
