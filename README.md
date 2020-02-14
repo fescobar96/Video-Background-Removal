@@ -6,6 +6,8 @@
 
 replace gif with github after making it public
 
+changes latex formulas to images
+
 ## Introduction
 
 talk about traditional image segmentation
@@ -37,9 +39,7 @@ Background removal with known (clean plate)  vs unknown background
 
 ![formula](https://render.githubusercontent.com/render/math?math=D(x%2Cy)%20%3D%20%7CI(x%2Cy)%20-%20B(x%2Cy)%7C)
 
-where d is blah blah blah
-
-D is absolute difference between image and background
+D is the absolute difference between an image I and background B.
 
 if we break the previous expression into its colors components, we get the following:
 $$
