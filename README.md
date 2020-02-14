@@ -34,9 +34,9 @@ Background removal with known (clean plate)  vs unknown background
 
 
 **Background Removal**
-$$
-D(x,y) = |I(x,y) - B(x,y)|
-$$
+
+![formula](https://render.githubusercontent.com/render/math?math=D(x%2Cy)%20%3D%20%7CI(x%2Cy)%20-%20B(x%2Cy)%7C)
+
 where d is blah blah blah
 
 D is absolute difference between image and background
@@ -56,6 +56,10 @@ combine the 3 previously expressions into a single one as a weighted average.
 **Foreground Extraction**
 
 
+
+
+
+![](![Foreground.png](https://github.com/fescobar96/Video-Background-Removal/blob/master/Images/Foreground.png?raw=true))
 
 
 
