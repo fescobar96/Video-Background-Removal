@@ -1,8 +1,10 @@
 # Video Background Removal Using KNN
 
-![](C:\Users\Work\Documents\Background Removal\Images\Background Removal.gif)
+![](https://media.giphy.com/media/WpUkcV8dtrM3qoHFas/giphy.gif)
 
 
+
+replace gif with github after making it public
 
 ## Introduction
 
@@ -12,7 +14,48 @@ talk about traditional image segmentation
 
 ## Methodology
 
-Assumptions
+
+
+Background removal with known (clean plate)  vs unknown background
+
+
+
+**Assumptions:**
+
+- Objects in the foreground are in motion
+- Objects in the foreground are relatively small compared to the background
+- The video has fixed lighting
+- The camera is static
+
+
+
+**Background Reconstruction**
+
+
+
+**Background Removal**
+$$
+D(x,y) = |I(x,y) - B(x,y)|
+$$
+where d is blah blah blah
+
+D is absolute difference between image and background
+
+if we break the previous expression into its colors components, we get the following:
+$$
+\begin{align*}
+{D}_{Red} (x,y) = |{I}_{Red}(x,y) - {B}_{Red}(x,y)| \\ \\
+{D}_{Green} (x,y) = |{I}_{Green}(x,y) - {B}_{Green}(x,y)| \\ \\
+{D}_{Blue} (x,y) = |{I}_{Blue}(x,y) - {B}_{Blue}(x,y)| \\
+\end{align*}
+$$
+combine the 3 previously expressions into a single one as a weighted average.
+
+
+
+**Foreground Extraction**
+
+
 
 
 
