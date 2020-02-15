@@ -1,4 +1,4 @@
-# Video Background Extraction Using KNN
+# Video Background Extraction Using K-means
 
 ![](https://github.com/fescobar96/Video-Background-Removal/blob/master/Images/Demo.gif?raw=true)
 
