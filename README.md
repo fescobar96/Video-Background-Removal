@@ -1,16 +1,14 @@
-# Video Background Removal Using KNN
+# Video Background Extraction Using KNN
 
 ![](https://media.giphy.com/media/WpUkcV8dtrM3qoHFas/giphy.gif)
 
 
 
-replace gif with github after making it public
-
-change latex formulas to images
-
 ## Introduction
 
-Image segmentation is a common and very important task in image processing. It consists in clustering the elements of an image into different groups. Although there are different ways of doing image segmentation, the most popular by far is k-means clustering. The main issue with using traditional k-means clustering for image segmentation is that it does not only affects the resolution of the image, but it also completely neglects the background and makes it almost an impossible task to reconstruct it.
+Image segmentation is a common and crucial task in image processing. It consists of clustering the elements of an image into different groups. Although there are different ways of doing image segmentation, the most popular by far is k-means clustering. The main issue with using traditional k-means clustering for image segmentation is that it does not only affects the resolution of the image but it also completely neglects the background and makes it almost an impossible task to reconstruct it.
+
+In this project, I provide you with the methodology necessary to reconstruct the background of a video (if the video meets certain assumptions) without having a significant negative impact on the quality of the image. After rebuilding the background, you'll be able to quickly isolate the foreground objects by subtracting the background from the rest of the video.
 
 
 
@@ -19,6 +17,10 @@ Image segmentation is a common and very important task in image processing. It c
 
 
 Background removal with known (clean plate)  vs unknown background
+
+
+
+talk about kmeans
 
 
 
@@ -64,6 +66,8 @@ combine the 3 previously expressions into a single one as a weighted average.
 
 
 ## Future Work
+
+We could further improve this project by considering the following enhancements:
 
 - Varying lighting
 - Moving camera
